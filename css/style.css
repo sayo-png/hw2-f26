@@ -1,10 +1,11 @@
 body {
-    font-family: Arial Verdana;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin-top: 20px;
+    /*margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px;*/
+    margin: 20px 20px 0 20px;
 }
 
 h1 {
@@ -50,31 +51,32 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px;
-    border-left: none;
+    border: none;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
 }
 
 .blue h2 {
-    color: #C4C4C4
+    color: #C4C4C4;
 }
 .blue p {
-    color: #C4C4C4
+    color: #C4C4C4;
 }
 
 .yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
 }
 
 .yellow p {
@@ -85,13 +87,13 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
 }
 
 footer {
-    background: linear-gradient(to right, #0000ff, #000001);
-    border: 5px solid white
+    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid white;
 }
 
 footer p {
