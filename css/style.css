@@ -51,6 +51,7 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
+    border: none;
     border-bottom: 2px solid white;
     border-left: 5px solid white;
 }
@@ -75,6 +76,7 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
+    border: none;
     border-bottom: 2px solid white;
     border-left: 5px solid white;
 }
@@ -87,6 +89,7 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    border: none;
     border-right: 5px solid white;
     border-top: 2px solid white;
 }
